@@ -1,7 +1,7 @@
 li {
     margin-bottom: 16px;
 }
-[target="_blank"] {
+a[target="_blank"] {
     border: 2px solid black;
 }
 a[href^="broken"] {
@@ -16,6 +16,6 @@ a[lang*="en"] {
 a[href*="www"] {
     color: green;
 }
-[title*="popular"] {
+a[title~="popular"] {
     font-size: 24px;
 }
