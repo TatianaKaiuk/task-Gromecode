@@ -1,0 +1,16 @@
+[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+a:visited {
+    color: grey;
+}
+h1::selection {
+color: blue;
+}
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+label{
+    text-transform: uppercase;
+}
