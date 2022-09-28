@@ -17,13 +17,13 @@ input {
     border: 3px solid red;
 }
 .hello {
-    background: white;
+    background-color: white;
 }
 #special {
     border: 2px solid blue;
 }
-div p {
-    font: 25px;
+div > p {
+    font-size: 25px;
 }
 [type="text"] {
     background-color: gray;
