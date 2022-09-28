@@ -1,0 +1,39 @@
+body {
+    background-color: #bdc3c7;
+}
+h1 {
+    color: #9b59b6;
+}
+h2 {
+    color: orange;
+}
+li {
+    color: blue;
+}
+p {
+    background-color: yellow;
+}
+input {
+    border: 3px solid red;
+}
+.hello {
+    background: white;
+}
+#special {
+    border: 2px solid blue;
+}
+div p {
+    font: 25px;
+}
+[type="text"] {
+    background-color: gray;
+}
+em {
+    font-size: 20px;
+    color: white;
+}
+/*11, 12  */
+
+.fuck {
+    border: 5px solid white;
+}
