@@ -15,15 +15,15 @@ header {
   position: fixed;
 z-index: 1;
 }
-nav {
-  color: white;
+/* nav {
   height: 40px;
   
   width: 100%;
   
   
-}  
+}   */
 .nav-list {
+  color: white;
   
   margin: 0;
   /* float: left; */
