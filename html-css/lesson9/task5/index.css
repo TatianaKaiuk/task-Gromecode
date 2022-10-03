@@ -7,32 +7,37 @@ main {
 }
 
 header {
-  float: top;
+  
   height: 40px;
   background-color: darkturquoise;
   width: 100%;
   position: fixed;
   /* clear: both; */
 }
-/* .navigation {
-  margin-left: 16px;  
+nav {
   color: white;
-  
-}   */
-
-.nav-item {
- float: left;
-  padding-right: 30px;
-  line-height: 1px;
-}  
-li {
-  display: inline;
-  margin-left: 16px;
   height: 40px;
-  color: white;
+  position: fixed;
+  width: 100%;
+  
+}  
+.nav-list {
+  margin: 0;
+  height: 40px;
+  position: fixed;
 }
 
+li {
+  line-height: 40px;
+  display: inline;
+  float: left;
+  margin-left: 16px;  
+  /* padding-right: 30px; */
+}  
+
+
 .head {
+
   height: 200px;
   width: 200px;
   background-color: aquamarine;
@@ -43,7 +48,8 @@ li {
   position: absolute;
   left: 40%;
   top: 300px;
-  right: 50%;
+ left: calc(center);
+  /* right: 50%; */
 }
 .ear {
   background-color: brown;
