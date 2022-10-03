@@ -8,7 +8,7 @@ main {
 }
 
 header {
-  float: right;
+  /* float: right; */
   height: 40px;
   background-color: darkturquoise;
   width: 100%;
