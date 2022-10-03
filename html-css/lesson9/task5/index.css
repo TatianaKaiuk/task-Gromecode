@@ -1,38 +1,39 @@
 main {
   height: 5000px;
   background-color: beige;
+  
 }
 * {
   box-sizing: border-box;
 }
 
 header {
-  
+  float: right;
   height: 40px;
   background-color: darkturquoise;
   width: 100%;
   position: fixed;
-  /* clear: both; */
+z-index: 1;
 }
 nav {
   color: white;
   height: 40px;
-  position: fixed;
+  
   width: 100%;
+  
   
 }  
 .nav-list {
+  
   margin: 0;
-  height: 40px;
-  position: fixed;
+  float: left;
 }
 
 li {
   line-height: 40px;
   display: inline;
-  float: left;
   margin-left: 16px;  
-  /* padding-right: 30px; */
+ 
 }  
 
 
@@ -41,16 +42,13 @@ li {
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 300px; */
+ 
   position: absolute;
   left: 40%;
   top: 300px;
   top: calc(50% - 100px);
  left: calc(50% - 100px);
-  /* right: 50%; */
+ 
 }
 .ear {
   background-color: brown;
@@ -71,13 +69,13 @@ li {
   height: 30px;
   border-radius: 50%;
   background-color: gray;
-  position: relative;
+  position: absolute;
 }
 .eye_right {
-  bottom: 40px;
+  bottom: 80px;
   left: 40px;
 }
 .eye_left {
-  left: 130px;
-  bottom: 70px;
+  right: 40px;
+  bottom: 80px;
 }
