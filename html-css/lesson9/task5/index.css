@@ -8,7 +8,7 @@ main {
 }
 
 header {
-  /* float: right; */
+  float: right;
   height: 40px;
   background-color: darkturquoise;
   width: 100%;
@@ -16,24 +16,24 @@ header {
 z-index: 1;
 }
 /* nav {
-  height: 40px;
   
   width: 100%;
   
-  
 }   */
 .nav-list {
-  color: white;
-  
+  height: 40px;
   margin: 0;
+  /* position: fixed; */
+  
   /* float: left; */
 }
 
 li {
+  color: white;
   line-height: 40px;
   display: inline;
   margin-left: 16px;  
- 
+
 }  
 
 
