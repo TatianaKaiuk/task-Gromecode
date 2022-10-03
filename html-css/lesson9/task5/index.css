@@ -48,6 +48,7 @@ li {
   position: absolute;
   left: 40%;
   top: 300px;
+  top: calc(50% - 100px);
  left: calc(50% - 100px);
   /* right: 50%; */
 }
