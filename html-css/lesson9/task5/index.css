@@ -32,6 +32,7 @@ li {
   color: white;
   margin-left: 16px;
   display: inline;
+  float: left;
 }
 
 .head {
