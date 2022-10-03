@@ -26,7 +26,7 @@ nav {
 .nav-list {
   
   margin: 0;
-  float: left;
+  /* float: left; */
 }
 
 li {
@@ -72,10 +72,10 @@ li {
   position: absolute;
 }
 .eye_right {
-  bottom: 80px;
+  top: 80px;
   left: 40px;
 }
 .eye_left {
   right: 40px;
-  bottom: 80px;
+  top: 80px;
 }
