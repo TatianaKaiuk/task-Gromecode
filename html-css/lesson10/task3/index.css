@@ -1,0 +1,43 @@
+  .header {
+        height: 40px;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+      }
+      .footer {
+        height: 40px;
+        background-color: green;
+        display: flex;
+      }
+      .footer__text {
+        margin: auto; /*удобно расспологать по центру, отступает равное расстояние для элемента, в нутри контейнера*/
+      }
+      .navigeshen {
+        margin: 0;
+        display: flex;
+        list-style-type: none;
+      }
+      .list {
+        margin-right: 10px;
+      }
+      .page {
+        display: flex;
+        flex-direction: column; /* меняем горизонтальную на главную вертикальную*/
+        min-height: 100vh; /*видимая часть страницы vh, */
+      }
+
+      .content {
+        display: flex;
+        flex-grow: 1;
+        background-color: pink;
+      }
+      .dashbord {
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .news {
+        width: 200px;
+        background-color: gray;
+      }
