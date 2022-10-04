@@ -13,12 +13,13 @@
   margin: auto; /*удобно расспологать по центру, отступает равное расстояние для элемента, в нутри контейнера*/
 }
 .navigeshen {
+    padding: 0;
   margin: 0;
   display: flex;
   list-style-type: none;
 }
 .list {
-  margin-right: 16px;
+  margin-left: 16px;
 }
 .page {
   display: flex;
@@ -46,6 +47,7 @@
 .nav {
   display: flex;
   flex-direction: column;
+  padding: 0;
   margin: 0;
   list-style-type: none;
 }
