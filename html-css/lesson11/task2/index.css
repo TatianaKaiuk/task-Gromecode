@@ -5,12 +5,12 @@ div > div {
 }
 
 /* put your code here */
-div:nth-child(1) {
+ .container div:nth-child(1) {
     display: none;
 }
-div:nth-child(2) {
+.container div:nth-child(2) {
     visibility: hidden;
 }
-div:nth-child(3) {
-    visibility: visible;
-}
+.container div:nth-child(3) {
+    visibility:visible
+} 
