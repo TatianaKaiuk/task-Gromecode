@@ -1,7 +1,8 @@
 .gallery {
     display: flex;
+    cursor: all-scroll;
     flex-wrap: nowrap;
-cursor: all-scroll;
+    overflow: auto;
 }
 .thumb {
     margin: 8px;
