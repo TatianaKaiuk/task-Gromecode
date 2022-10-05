@@ -10,14 +10,13 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-
-}
-body {
-    display: flex;
-    flex-direction: column;
-   flex-basis: 300px; /* ширина для влекс контейнеров*/
+    flex-basis: 300px; /* ширина для влекс контейнеров*/
     flex-grow: 1;
     flex-shrink: 1;
+
+}
+.articles-list {
+    display: flex;
     flex-wrap: wrap;
 }
 
