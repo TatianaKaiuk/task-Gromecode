@@ -1,0 +1,17 @@
+.text {
+  position: relative;
+  display: inline-block;
+  margin: 16px;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+.tooltip {
+    position: absolute;
+    display: block;
+    bottom: -40px;
+    color: white;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+}
+
