@@ -1,6 +1,8 @@
-
+.gallery {
+display: flex;
+}
 .image {
-    display: inline-block;
+   
     height: 200px;
     width: 200px;
     margin: 16px;
@@ -8,4 +10,7 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+* {
+    box-sizing: border-box;
 }
