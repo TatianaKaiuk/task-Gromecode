@@ -2,6 +2,7 @@
   padding: 35px;
   font-size: 24px;
   margin: 16px;
+  display: inline-block;
   position: relative;
 }
 input[type="checkbox"] {
@@ -14,7 +15,7 @@ input[type="checkbox"] {
   height: 25px;
   background-color: #d3d3d3;
   position: absolute;
-
+/* margin: 16px; */
   left: 0;
   display: inline-block;
 }
