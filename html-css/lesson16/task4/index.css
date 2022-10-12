@@ -23,7 +23,7 @@ body {
 
 .form-label {
     display: inline-block;
-  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .form-control {
     margin-bottom: 8px;
