@@ -10,9 +10,9 @@ body {
     background-color: aqua;
     display: inline-block;
     margin-left:  calc(50% - 150px);
-    margin-top: 125px;
+    margin-top: 120px; 
   
-  box-shadow: 0px, 4px, 8px, 0px, rgba (0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   width: 300px;
   padding: 16px;
 }
