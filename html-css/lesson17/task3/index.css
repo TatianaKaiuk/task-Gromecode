@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+table,
+td {
+  margin: 16px;
+  border-collapse: collapse;
+}
+
+tr:first-child {
+  border-top: 1px solid black;
+  
+}
+td:first-of-type {
+  border-left: 1px solid black;
+}
+td:last-child {
+  border-right: 1px solid black;
+}
+tr:last-child {
+  border-bottom: 1px solid black;
+}
+td:nth-child() {
+  background-color: black;
+}
+
