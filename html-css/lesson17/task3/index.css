@@ -1,20 +1,18 @@
 * {
   box-sizing: border-box;
 }
-td, tr {
+td,
+tr {
   height: 50px;
   width: 50px;
   text-align: center;
 }
-table,
-td {
+table {
   margin: 16px;
-  border-collapse: collapse;
 }
 
 tr:first-child {
   border-top: 1px solid black;
-  
 }
 td:first-of-type {
   border-left: 1px solid black;
@@ -25,7 +23,12 @@ td:last-child {
 tr:last-child {
   border-bottom: 1px solid black;
 }
-td:nth-child() {
+table,
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:not(:first-child, :last-child):nth-child(even)
+  td:not(:first-child, :last-child):nth-child(odd) {
   background-color: black;
 }
-
