@@ -18,9 +18,9 @@
 .icon {
     width: 32px;
     height: 32px;
-    background-color: white;
+    fill: white;
     vertical-align: middle;
 }
 .custom-button:hover > .icon {
-    background-color: green;
+    fill: green;
 }
