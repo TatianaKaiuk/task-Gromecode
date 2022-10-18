@@ -24,3 +24,6 @@
 .custom-button:hover > .icon {
     fill: green;
 }
+* {
+    box-sizing: border-box;
+}
