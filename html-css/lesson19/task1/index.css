@@ -3,11 +3,12 @@
 }
 .container {
     margin: 32px;
+    line-height: 100px;
+    text-align: center;
 }
 .rect {
     margin-bottom: 16px;
     background-color: coral;
-    text-align: center;
     opacity: 0.5;
     width: 100px;
     height: 100px;
