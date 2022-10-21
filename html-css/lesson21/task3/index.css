@@ -22,31 +22,33 @@ html {
 }
 .main {
   display: flex;
-flex: 1;
-  /* height: 100vh; */
+  flex: 1;
+  height: 100vh;
 }
 .navigation {
   width: 20%;
+   padding: 0.5em;
 }
 .nav-list {
   list-style-type: none;
   padding: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+ 
 }
 .nav-list-item {
   background-color: #808080;
+  color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 100%;
 }
 .nav-list-link {
-  color: white;
-  padding: 0.5em;
-  text-decoration: none;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    width: 100%;
 }
 .section {
   padding: 0.5em;
@@ -72,5 +74,5 @@ flex: 1;
   width: 20%;
 }
 body {
-    height: 100vh;
+  height: 100vh;
 }
