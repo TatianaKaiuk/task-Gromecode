@@ -32,21 +32,21 @@ html {
 .nav-list {
   list-style-type: none;
   padding: 0;
- 
 }
+
 .nav-list-item {
-  background-color: #808080;
-  color: white;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    background-color: #808080;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 .nav-list-link {
     color: white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     text-decoration: none;
     width: 100%;
 }
