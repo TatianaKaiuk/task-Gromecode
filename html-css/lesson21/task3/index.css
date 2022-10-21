@@ -1,5 +1,8 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  height: 100vh;
 }
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,7 +26,7 @@ html {
 .main {
   display: flex;
   flex: 1;
-  /* height: 100vh; */
+  height: 100vh;
 }
 .navigation {
   width: 20%;
@@ -72,7 +75,4 @@ html {
 .news {
   padding: 0.5em;
   width: 20%;
-}
-body {
-  height: 100vh;
 }
