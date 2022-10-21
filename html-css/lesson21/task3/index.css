@@ -23,7 +23,7 @@ html {
 .main {
     display: flex;
    
-    height: 100vh;
+    /* height: 100vh; */
 }
 .navigation {
     width: 20%;
@@ -40,10 +40,10 @@ html {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    width: 100%;
 }
 .nav-list-link {
     color: white;
-    width: 100%;
     padding: 0.5em;
     text-decoration: none;
 
