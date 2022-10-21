@@ -14,16 +14,18 @@ html {
 }
 .footer {
     display: flex;
+    flex-direction: column;
     background-color: #e5e5e5;
     padding: 0.5em;
    justify-content: center;
+   align-items: center;
  
    
 }
 .main {
     display: flex;
    
-    /* height: 100vh; */
+    height: 100vh;
 }
 .navigation {
     width: 20%;
