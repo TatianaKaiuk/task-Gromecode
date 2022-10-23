@@ -96,8 +96,9 @@ img {
   .news {
     width: 100%;
   }
+  
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 600px) and  (max-width: 1200px) {
   .main {
     flex-direction: column;
   }
@@ -122,9 +123,7 @@ img {
   .section {
     width: 60%;
   }
-  .news {
-
-    
+  .news {  
     width: 20%;
   }
 }
