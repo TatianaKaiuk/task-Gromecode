@@ -36,11 +36,12 @@ button {
 .nav-list-item {
     background-color: #808080;
     margin-bottom: 0.5em;
-    padding: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    /* line-height: 2em; */
+    line-height: 2em;
 }
 @media screen and (min-width: 600px) {
   button {
