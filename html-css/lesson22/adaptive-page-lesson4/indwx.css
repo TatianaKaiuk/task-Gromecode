@@ -33,6 +33,7 @@ html {
 .navigation {
   width: 20%;
   padding: 0.5em;
+  
 }
 .nav-list {
   list-style-type: none;
@@ -59,6 +60,7 @@ html {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
+ 
 }
 .units-list {
   line-height: 1.75em;
@@ -93,21 +95,30 @@ img {
   .section {
     width: 100%;
   }
-  .news {
+  /* .news {
     width: 100%;
   }
-  
+   */
 }
 @media screen and (min-width: 600px) and  (max-width: 1200px) {
-  .main {
-    flex-direction: column;
-  }
-  .navigation {
+.info {
+  display: flex;
+ 
+}
+.navigation {
     width: 20%;
   }
   .section {
     width: 80%;
   }
+  /* .news {
+    width: 100%;
+  } */
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+  } 
   .news {
     width: 100%;
   }
@@ -117,6 +128,10 @@ img {
   .main {
  display: flex;
   }
+  .info {
+  display: flex;
+ 
+}
   .navigation {
     width: 20%;
   }
