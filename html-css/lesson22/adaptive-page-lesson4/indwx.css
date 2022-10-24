@@ -115,7 +115,7 @@ img {
     width: 100%;
   } */
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .main {
     flex-direction: column;
   } 
@@ -125,20 +125,21 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .main {
- display: flex;
-  }
   .info {
-  display: flex;
- 
-}
+    display: flex;
+    
+  }
   .navigation {
     width: 20%;
   }
   .section {
     width: 60%;
   }
+  .main {
+ display: flex;
+  }
   .news {  
     width: 20%;
   }
 }
+
