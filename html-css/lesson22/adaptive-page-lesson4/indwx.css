@@ -79,6 +79,7 @@ html {
 .news {
   padding: 0.5em;
   width: 20%;
+  
 }
 
 img {
@@ -111,11 +112,6 @@ img {
   .section {
     width: 80%;
   }
-  /* .news {
-    width: 100%;
-  } */
-}
-@media screen and (max-width: 1200px) {
   .main {
     flex-direction: column;
   } 
@@ -124,19 +120,20 @@ img {
   }
 }
 
+
 @media screen and (min-width: 1200px) {
   .info {
     display: flex;
     
+  }
+  .main {
+ display: flex;
   }
   .navigation {
     width: 20%;
   }
   .section {
     width: 60%;
-  }
-  .main {
- display: flex;
   }
   .news {  
     width: 20%;
