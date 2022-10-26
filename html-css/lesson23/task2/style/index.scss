@@ -25,8 +25,8 @@ body {
     background-color: #c47;
   }
 }
-@media screen and (min-width: $sm) {
-  .container {
-    display: flex;
-  }
+.container {
+    @include for-container {
+        display: flex;
+    }
 }

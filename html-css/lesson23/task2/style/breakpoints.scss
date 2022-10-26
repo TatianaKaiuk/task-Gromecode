@@ -8,12 +8,17 @@ $unit: 8px;
   }
 }
 @mixin for-large-up {
-    @media screen and (min-width: $md) {
-        @content;
-    }
+  @media screen and (min-width: $md) {
+    @content;
+  }
 }
 @mixin large {
-    @media screen and (min-width: $lg) {
-        @content;
-    }
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+@mixin for-container {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
 }
