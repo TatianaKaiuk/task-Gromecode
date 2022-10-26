@@ -1,0 +1,32 @@
+@import 'breakpoiter.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  margin: $unit;
+  background-color: #ff7f50;
+  @include for-medium-up {
+    background-color: #8a2be2;
+  }
+  @include for-large-up {
+    background-color: #a61;
+  }
+  @include large {
+    background-color: #c47;
+  }
+}
+@media screen and (min-width: $sm) {
+  .container {
+    display: flex;
+  }
+}
