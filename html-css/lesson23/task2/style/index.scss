@@ -14,7 +14,10 @@ body {
   width: 100px;
   height: 100px;
   margin: $unit;
-  background-color: #ff7f50;
+  @include for-small {
+      background-color: #ff7f50;
+
+  }
   @include for-medium-up {
     background-color: #8a2be2;
   }
@@ -24,9 +27,4 @@ body {
   @include large {
     background-color: #c47;
   }
-}
-.container {
-    @include for-container {
-        display: flex;
-    }
 }
