@@ -14,13 +14,11 @@
   list-style-type: none;
   color: white;
   cursor: pointer;
-  height: 3em;
   padding: 0;
 }
 .menu__item {
   padding-left: 8px;
   padding-right: 8px;
-  height: 100%;
 }
 .menu__item:hover {
   background-color: #9acd32;
@@ -61,6 +59,11 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+}
+
+nav {
+  height: 3em;
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
