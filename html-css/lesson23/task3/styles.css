@@ -20,8 +20,7 @@
 .menu__item {
   padding-left: 8px;
   padding-right: 8px;
-  height: 3em;
-  margin-top: 15px;
+  height: 100%;
 }
 .menu__item:hover {
   background-color: #9acd32;
