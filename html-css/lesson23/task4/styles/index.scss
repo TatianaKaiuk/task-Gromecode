@@ -1,0 +1,42 @@
+@import 'layout.scss';
+* {
+    box-sizing: border-box;
+}
+span {
+     text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+.navigation {
+  display: flex;
+  min-height: $unit-heigth;
+  background-color: #ff7f50;
+  flex: 1;
+  
+}
+.product-list {
+  display: flex;
+  min-height: $unit-heigth;
+  background-color: #006400;
+  flex: 1;
+}
+.news {
+  display: flex;
+  min-height: $unit-heigth;
+  background-color: #0ff;
+  flex: 1;
+}
+.product {
+    @include for-medium {
+    display: flex;
+    flex: 2;
+  }
+}
+.conteiner {
+    @include for-large {
+        display: flex;
+    }
+}
