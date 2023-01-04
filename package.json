@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/TatianaKaiuk/task-Gromecode/issues"
   },
-  "homepage": "https://github.com/TatianaKaiuk/task-Gromecode#readme"
+  "homepage": "https://github.com/TatianaKaiuk/task-Gromecode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
 }
