@@ -3,14 +3,14 @@ import getSum, {
   getOddNumbers,
 } from './calculator.js';
 
-it('shoud get square numbers', () => {
+it('should get squared numbers', () => {
   const result = getSquaredNumbers([1, 2, 3]);
   expect(result).toEqual([1, 4, 9]); 
 });
 
-it('shoud get odd for numbers', () => {
+it('should keep odd numbers only', () => {
   const result = getOddNumbers([1, 2, 3, 4]);
-  expect(result).toEqual([2, 4]);
+  expect(result).toEqual([1, 3]);
 });
 
 it ('get sum numbers', () => {
